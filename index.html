@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>No Budget Media — Work</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#0e0e10;--fg:#f4f1ea;--mute:#9a968c;--card:#18181b;--line:#2a2a2f;--acc:#ff5a1f}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f3ec;--fg:#141416;--mute:#6b675e;--card:#fff;--line:#ddd8cc}}
+:root[data-theme="dark"]{--bg:#0e0e10;--fg:#f4f1ea;--mute:#9a968c;--card:#18181b;--line:#2a2a2f}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:'Helvetica Neue',Arial,sans-serif;line-height:1.5}
+.w{max-width:1000px;margin:0 auto;padding:0 20px}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h1{font-size:clamp(36px,8vw,72px);line-height:1;margin:0 0 14px;letter-spacing:-2px}
+h1 span{color:var(--acc)}
+h2{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--acc);margin:0 0 20px}
+p{color:var(--mute);margin:0 0 10px}
+.hero{padding:64px 0 36px;border:0}
+.hero p{font-size:18px;max-width:560px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.chip{background:none;border:1px solid var(--line);color:var(--fg);padding:8px 16px;font-size:14px;cursor:pointer;border-radius:99px}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.g{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.t{position:relative;display:flex;flex-direction:column;justify-content:flex-end;aspect-ratio:9/16;padding:14px;color:#fff;text-decoration:none;overflow:hidden;border:1px solid var(--line)}
+.t.wide{aspect-ratio:16/9;grid-column:1/-1}
+.t b{font-size:15px;display:block}
+.t small{opacity:.8;font-size:12px}
+.p{position:absolute;top:50%;left:50%;width:54px;height:54px;margin:-27px 0 0 -27px;border-radius:50%;background:rgba(255,255,255,.2);border:2px solid #fff}
+.p:after{content:"";position:absolute;left:21px;top:15px;border-left:16px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}
+.s{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.c{background:var(--card);border:1px solid var(--line);padding:20px}
+.c h3{margin:0 0 6px;font-size:17px}.c p{margin:0;font-size:14px}
+ul{padding-left:18px;margin:8px 0 0;color:var(--mute);font-size:14px}
+footer{padding:40px 0 60px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="w">
+
+<div class="hero">
+<h2>No Budget Media</h2>
+<h1>Video that makes people <span>stop scrolling.</span></h1>
+<p>Reels, event films and music videos. Here's our work.</p>
+</div>
+
+<section style="border-top:0;padding-top:0">
+<div class="chips" id="chips"></div>
+<div class="g" id="grid"></div>
+</section>
+
+<section>
+<h2>What we do</h2>
+<div class="s">
+<div class="c"><h3>Reels &amp; Shorts</h3><p>Shot and edited in-house for Instagram and YouTube.</p></div>
+<div class="c"><h3>Carousels &amp; Creatives</h3><p>Designed posts with strong copy, in your brand look.</p></div>
+<div class="c"><h3>Event Coverage</h3><p>Launches and live nights turned into reels and highlight cuts.</p></div>
+<div class="c"><h3>Music Videos &amp; Brand Films</h3><p>Cinematic storytelling, concept to final cut.</p></div>
+</div>
+</section>
+
+<section>
+<h2>Plan for your outlets</h2>
+<div class="s">
+<div class="c"><h3>Monthly retainer</h3><ul><li>Reels for each outlet, every month</li><li>Carousels and static creatives</li><li>Planned shoot day per outlet</li><li>Content calendar shared in advance</li></ul></div>
+<div class="c"><h3>How it runs</h3><ul><li>Week 1: brand understanding, ideas</li><li>Weeks 2-3: shoot and edit</li><li>Week 4: review and delivery</li><li>Monthly check-in on what works</li></ul></div>
+</div>
+<p style="margin-top:14px;font-size:14px">Quantities and pricing finalised together after discussion.</p>
+</section>
+
+<footer>
+<h2>Let's talk</h2>
+<p>Deep · No Budget Media · <a href="tel:+919561566276" style="color:var(--acc)">9561566276</a></p>
+<p>Instagram: <a href="https://www.instagram.com/nobudget.media" style="color:var(--acc)">@nobudget.media</a> · Nagpur, Maharashtra · <a href="mailto:okjaadu04@gmail.com" style="color:var(--acc)">okjaadu04@gmail.com</a></p>
+</footer>
+</div>
+
+<script>
+// EDIT HERE: t = title, c = category, u = link to the video (Instagram/YouTube), leave u empty if none yet
+var works=[
+{t:"Shunya Tune: Music Channel",c:"Music",u:"https://www.youtube.com/@shunyatune",wide:1},
+{t:"Shunya Tune on Instagram",c:"Music",u:"https://www.instagram.com/shunya_tune/"},
+{t:"Shree Aalaya: cafe we manage",c:"Cafe Content",u:"https://www.instagram.com/shreeaalaya/"},
+{t:"No Budget Media: all our reels",c:"Reels &amp; Shorts",u:"https://www.instagram.com/nobudget.media"}
+];
+var cats=["All"];works.forEach(function(w){if(cats.indexOf(w.c)<0)cats.push(w.c)});
+var cur="All";
+function draw(){
+ var ch=document.getElementById("chips");ch.innerHTML="";
+ cats.forEach(function(c){var b=document.createElement("button");b.className="chip"+(c==cur?" on":"");b.textContent=c;b.onclick=function(){cur=c;draw()};ch.appendChild(b)});
+ var g=document.getElementById("grid");g.innerHTML="";
+ works.forEach(function(w,i){
+  if(cur!="All"&&w.c!=cur)return;
+  var a=document.createElement(w.u?"a":"div");
+  if(w.u){a.href=w.u;a.target="_blank";a.rel="noopener"}
+  a.className="t"+(w.wide?" wide":"");
+  a.style.background="linear-gradient(160deg,hsl("+(14+i*22)+",70%,32%),#111 85%)";
+  a.innerHTML='<span class="p"></span><b>'+w.t+'</b><small>'+w.c+'</small>';
+  g.appendChild(a)});
+}
+draw();
+</script>
+</body>
+</html>
